@@ -12,7 +12,7 @@ from pysnmp.hlapi.asyncio import (
 
 # --- Configuration ---
 COMMUNITY = 'public'
-CSV_FILENAME = 'attack_snmp_1.csv'
+CSV_FILENAME = 'normal_snmp_2.csv'
 INTERVAL = 15
 
 # Khởi tạo MỘT engine duy nhất để dùng chung cho tất cả các request
@@ -23,8 +23,7 @@ DEVICES = {
     'device1': '172.16.0.80',
     'device2': '172.16.0.1',
     'device3': '10.0.0.1',
-    'device4': '192.168.10.10',
-    'device5': '192.168.20.10',
+    'device4': '192.168.10.10'
 }
 
 # Define interface names and their SNMP ifIndex per device.
