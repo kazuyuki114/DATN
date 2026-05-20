@@ -12,7 +12,7 @@ from pysnmp.hlapi.asyncio import (
 
 # --- Configuration ---
 COMMUNITY = 'public'
-CSV_FILENAME = 'normal_snmp_2.csv'
+CSV_FILENAME = 'normal_snmp_6.csv'
 INTERVAL = 15
 
 # Khởi tạo MỘT engine duy nhất để dùng chung cho tất cả các request
